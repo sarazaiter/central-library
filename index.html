@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <!-- navbar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+              <img class="img-logo" src="images/freepik-simple-brown-publisher-logo-20241027185729F4GS.webp" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mx-2" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Classics</a></li>
+                      <li><a class="dropdown-item" href="#">Romance</a></li>
+                      <li><a class="dropdown-item" href="#">Fiction</a></li>
+                      <li><a class="dropdown-item" href="#">Non-Fiction</a></li>
+                      <li><a class="dropdown-item" href="#">Self-Help</a></li>
+                      <li><a class="dropdown-item" href="#">Psychology</a></li>
+                      <li><a class="dropdown-item" href="#">Philosophy</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2 ms-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+                
+        <button type="button" class="btn btn-outline-light mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login
+        </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-dark">
+                    <h5 class="modal-title text-light" id="exampleModalLabel">Login</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                          </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Login</button>
+                    <button type="button" class="btn btn-dark text-light" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div> <!-- carsousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-carousel" src="https://img.freepik.com/free-photo/luxury-home-interior-illuminated-by-modern-lighting-generated-by-ai_188544-21350.jpg?t=st=1730060356~exp=1730063956~hmac=93389cbf8cc0100332dc7ab1bb61aa5fc2b5233988849c1e7ded07d7019c73a5&w=996" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block car-opacity">
+                  <h5>Welcome To Central Library!</h5>
+                  <p>Where all the magic begins...</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="img-carousel" src="https://img.freepik.com/free-photo/ancient-book-collection-old-cellar-shelves-generated-by-ai_188544-42329.jpg?t=st=1730060049~exp=1730063649~hmac=d007afcfcb2756143e526b97f277e47da0576b92e4a39c65651d056cbe22ee45&w=996" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block car-opacity">
+                  <h5>Your favorite books availabe</h5>
+                  <p>and more varaities of your choice</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="img-carousel" src="https://img.freepik.com/free-photo/luxury-bookshelf-old-fashioned-living-room-generated-by-ai_188544-54386.jpg?t=st=1730060407~exp=1730064007~hmac=38ea6397abf4f45d4a8495a12ff3e13453edeb5539b02bcad64710ea528937ba&w=996" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block car-opacity">
+                  <h5>Explore new book editions</h5>
+                  <p>Both limited and unlimited amounts!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <i class="fa-solid fa-circle-chevron-left text-light fs-4"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <i class="fa-solid fa-circle-chevron-right text-light fs-4"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="div-icon"> <!-- fixed icons -->
+      <ul class="list-unstyled">
+        <li><a href="#" class="text-light fs-4"><i class="fa-brands fa-square-facebook"></i></i></a></li>
+        <li><a href="#" class="text-light fs-4"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+        <li><a href="#" class="text-light fs-4"><i class="fa-brands fa-square-twitter"></i></a></li>
+        <li><a href="#" class="text-light fs-4"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#" class="text-light fs-4"><i class="fa-brands fa-square-instagram"></i></a></li>
+      </ul>
+    </div>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+     <div class="container-md"> <!-- welcome-bar -->
+      <h2 class="mt-3 text-light">Hello There!</h2>
+      <span class="pb-4 text-light">We are so glad that you've finally arrived to the Central Library Website! Feel free to
+        explore it and hopefully buy some books of your choice. There are tons of varaities to choose from, and we hope 
+        you visit us more in the future. Enjoy yout tour!
+      </span>
+     </div>
+     <hr class="bg-secondary">
+     <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+     <div> <!-- accordion -->
+      <h2 class="text-center text-light mb-4">Most Famous Books</h2>
+      
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              The Secret History - Donna Tartt
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-dark text-light">Under the influence of their charismatic classics professor, a group of clever, eccentric misfits at an elite New England college discover a way of thinking and living that is a world away from the humdrum existence of their contemporaries. But when they go beyond the boundaries of normal morality they slip gradually from obsession to corruption and betrayal, and at last—inexorably—into evil.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              A Tale Of Two Cities - Charles Dickens
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-dark text-light">A Tale of Two Cities is Charles Dickens’s great historical novel, set against the violent upheaval of the French Revolution. The most famous and perhaps the most popular of his works, it compresses an event of immense complexity to the scale of a family history, with a cast of characters that includes a bloodthirsty ogress and an antihero as believably flawed as any in modern fiction. Though the least typical of the author’s novels, A Tale of Two Cities still underscores many of his enduring themes—imprisonment, injustice, social anarchy, resurrection, and the renunciation that fosters renewal.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              1984 - George Orwell
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-dark text-light">A masterpiece of rebellion and imprisonment where war is peace freedom is slavery and Big Brother is watching. Thought Police, Big Brother, Orwellian - these words have entered our vocabulary because of George Orwell's classic dystopian novel 1984. The story of one man's Nightmare Odyssey as he pursues a forbidden love affair through a world ruled by warring states and a power structure that controls not only information but also individual thought and memory 1984 is a prophetic haunting tale More relevant than ever before 1984 exposes the worst crimes imaginable the destruction of truth freedom and individuality. With a foreword by Thomas Pynchon. This beautiful paperback edition features deckled edges and french flaps a perfect gift for any occasion.</div>
+          </div>
+        </div>
+      </div>
+
+     </div>
+     <hr class="bg-secondary">
+<!-- ///////////////////////////////////////////////////////////////////////////// -->
+
+     <div class="container-fluid pb-3"> <!-- translate -->
+      <h2 class="text-center text-light">Translate from Arabic to English</h2>
+      <div class="bg-secondary pt-3 div-text pb-3 rounded-2">
+        <span class="text-light mx-5 pt-4">Write and Translate <a href="#" class="text-primary text-decoration-none">Press Here</a></span>
+        <button onclick="alertBtn()" type="button" class="btn btn-dark text-light mt-1 mx-5 d-block" data-bs-toggle="tooltip" data-bs-placement="right" title="Copy To Clipboard">
+          Copy
+        </button>
+        <textarea placeholder="Translate here..." cols="30" rows="5" class="mx-5 mt-2 col-sm-10 col-lg-10"></textarea>
+      </div>
+      <hr class="bg-secondary">
+      <h2 class="text-center text-light">Translate from Arabic to French</h2>
+      <div class="bg-secondary pt-3 div-text pb-3 rounded-2">
+        <span class="text-light mx-5 pt-4">Write and Translate <a href="#" class="text-primary text-decoration-none">Press Here</a></span>
+        <button onclick="alertBtn()" type="button" class="btn btn-dark text-light mt-1 mx-5 d-block" data-bs-toggle="tooltip" data-bs-placement="right" title="Copy To Clipboard">
+          Copy
+        </button>
+        <textarea placeholder="Translate here..." cols="30" rows="5" class="mx-5 mt-2 col-sm-10 col-lg-10"></textarea>
+      </div>
+      <hr class="bg-secondary">
+      <h2 class="text-center text-light">Translate from Arabic to German</h2>
+      <div class="bg-secondary pt-3 div-text pb-3 rounded-2">
+        <span class="text-light mx-5 pt-4">Write and Translate <a href="#" class="text-primary text-decoration-none">Press Here</a></span>
+        <button onclick="alertBtn()" type="button" class="btn btn-dark text-light mt-1 mx-5 d-block" data-bs-toggle="tooltip" data-bs-placement="right" title="Copy To Clipboard">
+          Copy
+        </button>
+        <textarea placeholder="Translate here..." cols="30" rows="5" class="mx-5 mt-2 col-sm-10 col-lg-10"></textarea>
+      </div>
+     </div>
+     <!-- ///////////////////////////////////////////////////////////////////////////////////////////// -->
+      <div class="div-img1 row-cols-sm-1 col-lg-12"> <!-- fixed image -->        
+      </div>
+      <hr class="bg-secondary">
+      <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+      <h2 class="text-light text-center">Best Seller Books</h2>
+      <div class="row container-fluid m-auto"> <!-- cards -->
+       <div class="col-lg-3 col-sm-1 mt-3 pb-3 ms-1 card-1">
+          <div class="card bg-secondary overlay" style="width: 18rem;">
+            <img src="images/atomic habits.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-light">Atomic Habits <br> James Clear</h5>
+              <p class="card-text text-light text-center">$39.99</p>
+              <a href="#" class="btn btn-dark btn-card">Purchase</a>
+            </div>
+         </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-1 mt-3 pb-2 mx-auto">
+          <div class="card bg-secondary overlay" style="width: 18rem;">
+            <img src="images/a breif history.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-light">A Breif History Of Intelligence</h5>
+              <p class="card-text text-light text-center">$29.99</p>
+              <a href="#" class="btn btn-dark btn-card">Purchase</a>
+            </div>
+         </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-1 mt-3 pb-3">
+            <div class="card bg-secondary overlay" style="width: 18rem;">
+              <img src="images/as long as.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center text-light">As Long As Lemon Trees Grow</h5>
+                <p class="card-text text-light text-center">$26.95</p>
+                <a href="#" class="btn btn-dark btn-card">Purchase</a>
+              </div>
+           </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-1 mt-3 pb-3 ms-1">
+              <div class="card bg-secondary overlay" style="width: 18rem;">
+                <img src="images/the waiting.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-light">The Waiting</h5>
+                  <p class="card-text text-light text-center">$21.00</p>
+                  <a href="#" class="btn btn-dark btn-card">Purchase</a>
+                </div>
+             </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-1 mt-3 pb-3 mx-auto">
+                <div class="card bg-secondary overlay" style="width: 18rem;">
+                  <img src="images/counting miracles.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-light">Counting Miracles</h5>
+                    <p class="card-text text-light text-center">$21.00</p>
+                    <a href="#" class="btn btn-dark btn-card">Purchase</a>
+                  </div>
+               </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-1 mt-3 pb-3">
+                  <div class="card bg-secondary overlay" style="width: 18rem;">
+                    <img src="images/here one moment.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-light">Here One Moment</h5>
+                      <p class="card-text text-light text-center">$21.00</p>
+                      <a href="#" class="btn btn-dark btn-card">Purchase</a>
+                    </div>
+                 </div>
+                  </div>
+      </div>
+ <!-- ////////////////////////////////////////////////////////////////////////// -->
+ <div class="div-img1 row-cols-sm-1 col-lg-12"> <!-- fixed image -->        
+ </div>
+ <hr class="bg-secondary">
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+        <h2 class="text-light text-center">Top 3 Raters</h2>
+        <div class="row container-fluid m-auto"> <!-- 3 thank you cards -->
+          
+          <div class="col-lg-3 col-sm-1 mt-3 pb-3 ms-1">
+          <div class="card card-scale" style="width: 18rem;">
+            <img src="images/person1.webp" class="card-img-top" alt="...">
+            <div class="card-body d-block text-center">
+              <p class="card-text fw-bold">Harry James | Sci-Fi Addict</p>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-lg-3 col-sm-1 mt-3 pb-3 mx-auto">
+          <div class="card card-scale" style="width: 18rem;">
+            <img src="images/person2.webp" class="card-img-top" alt="...">
+            <div class="card-body d-block text-center">
+              <p class="card-text fw-bold">Mike Lawrence | Series Wizard</p>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-lg-3 col-sm-1 mt-3 pb-3">
+          <div class="card card-scale" style="width: 18rem;">
+            <img src="images/person3.webp" class="card-img-top" alt="...">
+            <div class="card-body d-block text-center">
+              <p class="card-text fw-bold">Kevin Harold | Jack Of All Trades</p>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="bg-secondary">
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+      <h2 class="text-light text-center mb-3">Current News</h2>
+      <div class="container-fluid"> <!-- news -->
+        <div class="card mb-5 mx-auto card-shadow btn-grow" style="max-width: 750px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/libraryone.webp" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Book Fair this Sunday!</h5>
+                <p class="card-text">Join us this Sunday from 9AM till 10PM for our yearly Book Fair that's full of suprises!</p>
+                <i class="fa-regular fa-clock d-inline-block text-muted px-1"></i>
+                <p class="card-text d-inline-block"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-5 mx-auto card-shadow btn-grow" style="max-width: 750px;">
+          <div class="row g-0">
+            <div class="col-lg-4">
+              <img src="images/library2.webp" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Back To School Fair</h5>
+                <p class="card-text">Visit us all week to buy your academic books for half the price!</p>
+                <i class="fa-regular fa-clock d-inline-block text-muted px-1"></i>
+                <p class="card-text d-inline-block"><small class="text-muted">Last updated 15 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-5 mx-auto card-shadow btn-grow" style="max-width: 750px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/library3.webp" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Signautre Events</h5>
+                <p class="card-text">Your favourite authors will visit our library from 26th of August to the 29th of August, get your books ready to be signed!</p>
+                <i class="fa-regular fa-clock d-inline-block text-muted px-1"></i>
+                <p class="card-text d-inline-block"><small class="text-muted">Last updated 1 hour ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 mx-auto card-shadow btn-grow" style="max-width: 750px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/library4.webp" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Story Time!</h5>
+                <p class="card-text">We are opening a Story Booth for kids this entire weekend, snacks and cozy seats will be available all afternoon for a fun time!</p>
+                <i class="fa-regular fa-clock d-inline-block text-muted px-1"></i>
+                <p class="card-text d-inline-block"><small class="text-muted">Last updated 3 hours ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="bg-secondary">
+<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+      <h2 class="text-light text-center mb-2">Join Us</h2>
+      <div class="row container-fluid m-auto"> <!-- join us -->
+        <div class="col-lg-3 col-sm-1">
+        <div class="card text-center mt-2 mb-3 card-shadow" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title mb-3">Follow Us On X</h5>
+            <img class="w-25 h-25 d-block mx-auto mb-3" src="images/twitter.webp" alt="">
+            <a href="#" class="btn btn-dark">Join Now</a>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-1">
+          <div class="card text-center mt-2 mb-3 card-shadow" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Follow Us On WA Broadcast</h5>
+              <img class="w-25 h-25 d-block mx-auto mb-3" src="images/whatsapp.webp" alt="">
+              <a href="#" class="btn btn-dark">Join Now</a>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-1">
+            <div class="card text-center mt-2 mb-3 card-shadow" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title mb-3">Follow Us On Linkedin</h5>
+                <img class="w-25 h-25 d-block mx-auto mb-3" src="images/linkedin.webp" alt="">
+                <a href="#" class="btn btn-dark">Join Now</a>
+              </div>
+            </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-1">
+              <div class="card text-center mt-2 mb-3 card-shadow" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-3">Follow Us On Instagram</h5>
+                  <img class="w-25 h-25 d-block mx-auto mb-3" src="images/instagram.webp" alt="">
+                  <a href="#" class="btn btn-dark">Join Now</a>
+                </div>
+              </div>
+              </div>
+      </div>
+      <!-- /////////////////////////////////////////////////////////////////////////////// -->
+       <footer class="text-light bg-secondary">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <hr class="bg-dark w-75 mx-auto">
+              <img class="img-logo d-inline-block card-shadow" src="images/freepik-simple-brown-publisher-logo-20241027185729F4GS.webp" alt="">
+              <h5 class="d-inline-block px-2">More Library Info</h5>
+              <hr class="bg-dark w-75 mx-auto">
+              <p>TEL: 000-000-000</p>
+              <p>Location: Cairo, Egypt</p>
+              <p>FAX: 000-000-000</p>
+            </div>
+            <div class="col">
+              <hr class="bg-dark w-75 mx-auto">
+              <img class="img-logo d-inline-block card-shadow" src="images/freepik-simple-brown-publisher-logo-20241027185729F4GS.webp" alt="">
+              <h5 class="d-inline-block px-2">Other Links</h5>
+              <hr class="bg-dark w-75 mx-auto">
+              <p><a href="#" class="text-decoration-none text-dark">Visit Us Here</a></p>
+              <p><a href="#" class="text-decoration-none text-dark">Sneak Peek of an upcoming project</a></p>
+              <p><a href="#" class="text-decoration-none text-dark">GoFunds and Donations</a></p>
+            </div>
+            <div class="col">
+              <hr class="bg-dark w-75 mx-auto">
+              <img class="img-logo d-inline-block card-shadow" src="images/freepik-simple-brown-publisher-logo-20241027185729F4GS.webp" alt="">
+              <h5 class="d-inline-block px-2">Our Goal & Vision</h5>
+              <hr class="bg-dark w-75 mx-auto">
+              <p>Provide utmost service for our readers</p>
+              <p>A comfortable place for inspiration</p>
+              <p>Welcome new visitors with warmth</p>
+            </div>
+            <hr class="bg-dark">
+            <h5 class="pb-4">&copy; ALL RIGHTS AND COPYRIGHT RESERVED, 2024 SARA OSSAMA, CENTRAL LIBRARY</h5>
+          </div>
+        </div>
+       </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
+<script src="js/script.js"></script>
+</body>
+</html>
